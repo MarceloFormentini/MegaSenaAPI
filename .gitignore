@@ -1,0 +1,20 @@
+# Ambiente virtual
+venv/
+.env
+
+# Arquivos do sistema
+__pycache__/
+*.py[cod]
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+
+# Configurações locais do editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

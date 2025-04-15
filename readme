@@ -1,0 +1,56 @@
+# Web Scraping Mega Sena
+
+Um projeto para coletar e analisar dados dos sorteios da Mega Sena utilizando web scraping.
+
+## 📋 Descrição
+Este projeto realiza web scraping da API oficial da Caixa Econômica Federal para obter dados dos sorteios da Mega Sena.
+
+## 🔗 Fonte de Dados
+```
+https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/{NUM_CONCURSO}
+```
+
+## 🚀 Tecnologias Utilizadas
+- Python 3.x
+- Requests
+- JSON
+- Pandas
+
+## ⚙️ Instalação
+1. Clone o repositório:
+```
+git clone https://github.com/seu-usuario/WebScrapingMegaSena.git
+```
+2. Instale as dependências
+```
+pip install -r requirements.txt
+```
+
+🎯 Como Usar
+1. Execute o script principal:
+```
+scrapy crawl mega_api
+```
+2. Os dados serão salvos em formato JSON na pasta data.
+
+📊 Funcionalidades
+- Coleta automática dos resultados da Mega Sena
+- Armazenamento dos dados em JSON
+- Visualização de dados
+- Leitura do JSON
+- Cálculo de frequências e atrasos
+- Geração de jogos com:
+  - Números mais frequentes
+  - Mistura frequentes + atrasados
+  - Evitar jogos já sorteados
+  - Evitar mais de 2 números sequenciais
+  - Análise de faixa (baixa/média/alta)
+  - Paridade (pares/ímpares)
+  - Soma dos números
+  - Verificação de combinações repetidas
+
+📝 Licença
+Este projeto está sob a licença MIT.
+
+🤝 Contribuição
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
