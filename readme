@@ -1,9 +1,9 @@
-# Web Scraping Mega Sena
+# Mega Sena API
 
-Um projeto para coletar e analisar dados dos sorteios da Mega Sena utilizando web scraping.
+Um projeto para coletar e analisar dados dos sorteios da Mega Sena consumindo API
 
 ## 📋 Descrição
-Este projeto realiza web scraping da API oficial da Caixa Econômica Federal para obter dados dos sorteios da Mega Sena.
+Este projeto realiza consulta na API oficial da Caixa Econômica Federal para obter dados dos sorteios da Mega Sena.
 
 ## 🔗 Fonte de Dados
 ```
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 🎯 Como Usar
 1. Execute o script principal:
 ```
-scrapy crawl mega_api
+python main.py
 ```
 2. Os dados serão salvos em formato JSON na pasta data.
 
